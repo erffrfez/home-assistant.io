@@ -29,6 +29,9 @@ There are a few ways that you can use Amazon Alexa and Home Assistant together.
 - [Create a Custom Alexa Skill to build custom commands](/integrations/alexa.intent/)
 - [Create a new Flash Briefing source](/integrations/alexa.flash_briefings/)
 - Alternative: use the [Emulated Hue integration][emulated-hue-component] to trick Alexa into thinking Home Assistant is a Philips Hue hub.
+- Alternative: for devices with [Tasmota](https://tasmota.github.io/docs/Alexa/) use either Belkin WeMo (single device) or Hue Bridge (multi device) emulation. This does not need any external set-up, the Tasmota device should then be discovered by Alexa.
+  - Supports utterances without requiring the skill name, such as "Alexa, turn off the light."
+  - Support for viewing and controlling devices with the Alexa mobile app.
 
 ### Requirements
 
